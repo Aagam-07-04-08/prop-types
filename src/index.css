@@ -1,0 +1,50 @@
+/* Question 2
+.user{
+    background-color: hsl(207, 77%, 88%);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    height: 40%;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(208, 100%, 78%);
+}
+
+body{
+    margin: 0;
+} */
+
+/* Question 3 */
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 60px;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+}
+
+aside {
+  width: 200px;
+}
+
+footer {
+  height: 60px;
+}
