@@ -15,13 +15,11 @@ function App() {
 
   return (
       <div className="container">
-        {/* <Header/> */}
+        <Header/>
         <Greetings name="Aagam"/>
-        {/* <div className="user">
-          <UserProfile Username="Aagam" Age={18} isAdmin={true}/>
-        </div>
+        <UserProfile Username="Aagam" Age={18} isAdmin={true}/>
         <Sidebar/>
-        <Footer/> */}
+        <Footer/>
       </div>
   )
 }

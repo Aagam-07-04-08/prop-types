@@ -1,8 +1,9 @@
+import "./Footer.css"
 
 export function Footer(){
-    return <footer>This is the footer.</footer>
+    return <footer className="footer">This is the footer.</footer>
 }
 
 export function Sidebar(){
-    return <aside>This is the sidebar.</aside>
+    return <aside className="sidebar">This is the sidebar.</aside>
 }
