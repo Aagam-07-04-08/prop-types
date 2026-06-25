@@ -5,11 +5,11 @@ import {Footer,Sidebar} from "./components/Footer.jsx";
 import propTypes from "prop-types";
 import "./index.css";
 
-// UserProfile.propTypes = {
-//   Username: propTypes.string.isRequired,
-//   Age: propTypes.number.isRequired,
-//   isAdmin: propTypes.bool.isRequired
-// }
+UserProfile.propTypes = {
+  Username: propTypes.string.isRequired,
+  Age: propTypes.number.isRequired,
+  isAdmin: propTypes.bool.isRequired
+}
 
 function App() {
 
